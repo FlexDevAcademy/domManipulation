@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <script
+      src="https://code.jquery.com/jquery-3.7.0.min.js"
+      integrity="sha256-2Pmvv0kuTBOenSvLm6bvfBSSHrUJ+3A7x6P5Ebd07/g="
+      crossorigin="anonymous"
+    ></script>
+    <link href="styles.css" rel="stylesheet" />
+    <script src="script_JS.js" defer></script>
+    <!-- <script src="script_jQuery.js" defer></script> -->
+  </head>
+  <body>
+    <div title="Przykład 1">
+      <h1>Nagłówek h1</h1>
+      <input id="input1" oninput="onInputChange()" type="text" />
+    </div>
+    <div title="Przykład 2">
+      <h2>Nagłówek h2</h2>
+      <input id="input2" type="text" />
+      <button onclick="onButtonClick()">Zmień nagłówek</button>
+    </div>
+    <div title="Przykład 3">
+      <h3>Nagłówek h3</h3>
+      <label>Wybierz opcję, żeby zmienić kolor nagłówka:</label>
+      <select class="dropdown" onchange="onChangeHandler()">
+        <option value="text-red">Czerwony</option>
+        <option value="text-blue">Niebieski</option>
+        <option value="text-green">Zielony</option>
+        <option value="text-yellow">Żółty</option>
+      </select>
+    </div>
+    <div title="Przykład 4">
+      <h4>Nagłówek h4</h4>
+      <button onclick="replaceMarkup()">Zastąp HTML</button>
+    </div>
+  </body>
+</html>

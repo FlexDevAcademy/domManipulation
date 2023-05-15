@@ -1,0 +1,20 @@
+div {
+  padding: 1rem 0;
+  border-bottom: 1px solid black;
+}
+
+.text-blue {
+  color: blue;
+}
+
+.text-green {
+  color: green;
+}
+
+.text-red {
+  color: red;
+}
+
+.text-yellow {
+  color: yellow;
+}
